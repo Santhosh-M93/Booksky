@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }      
+}
+.nav{
+    color: black;
+    background-color: #fc050d;
+    padding: 10px;
+    border-radius:10px;
+}
+.container-box{
+    background-color: black;
+    padding:15px;
+    margin:30px;
+    width:20%;
+    border-radius:10px;
+    color:white;  
+    display:inline-block; 
+    vertical-align: top;
+}
+.container-box h2{
+    color:#fc050d;
+}
+.container-box button{
+    background-color: #fc050d;
+    color:black;
+    border-style: none;
+    border-radius:3px;
+    padding:4px;
+    margin-top:3px;
+}
+.plus{
+    background-color: #fc050d;
+    color:black;
+    border-radius: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    cursor: pointer;
+}
+.plus2{
+    background-color: black;
+    position:absolute;
+    Width:100%;
+    height:100%;
+    top:0%;
+    left:0%;
+    opacity:0.8; 
+    z-index:1;
+    display:none;
+}
+.plus1{
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left: 20px;
+    padding-right:25px;
+    background-color: #fc050d;
+    width:40%;
+    border-radius: 10px;
+    position: absolute;
+    top:20%;
+    left:30%;
+    z-index: 2;
+    display: none;
+}
+#Title{
+    background:transparent;
+    border: none;
+    width:100%;
+    margin:5px;
+    padding:5px;
+    font-size: 20px;
+    border-bottom:black solid 2px;
+    outline: none;
+}
+#Author{
+    background:transparent;
+    border: none;
+    width:100%;
+    margin:5px;
+    padding:5px;
+    font-size: 20px;
+    border-bottom:black solid 2px;
+    outline: none;
+}
+#Description{
+    background:transparent;
+    border: none;
+    width:100%;
+    margin:5px;
+    padding:5px;
+    font-size: 20px;
+    border:black solid 2px;
+    outline: none;
+}
+#add{
+    background-color: black;
+    color:white;
+    border:none;
+    display: inline-block;
+    width:55px;
+    height:27px;
+    margin-top:5px;
+}
+#del{
+    background-color: black;
+    color:white;
+    border:none;
+    display: inline-block;
+    width:65px;
+    height:27px;
+}
